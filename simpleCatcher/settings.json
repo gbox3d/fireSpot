@@ -1,0 +1,7 @@
+{
+  "env" : {
+    "MONGO_URL" : "mongodb://gbox3d:8086@cluster0-shard-00-00-nxj4y.mongodb.net:27017,cluster0-shard-00-01-nxj4y.mongodb.net:27017,cluster0-shard-00-02-nxj4y.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true",
+    "ROOT_URL" : "http://127.0.0.1",
+    "MAIL_URL" : null
+  }
+}

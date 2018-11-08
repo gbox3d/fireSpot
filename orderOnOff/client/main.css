@@ -1,0 +1,11 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.bigButton {
+  width: 196px;
+  height: 128px;
+  display: block;
+  margin: 16px;
+}

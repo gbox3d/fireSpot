@@ -1,0 +1,21 @@
+<head>
+  <title>simpleCatcher</title>
+</head>
+
+<body>
+<h1> 데이터 수집 </h1>
+
+{{>mainView}}
+
+
+</body>
+
+
+<template name="mainView">
+
+  {{#each getSensorDataList}}
+  <div> {{at}} , {{a1}} </div>
+  {{/each}}
+
+
+</template>

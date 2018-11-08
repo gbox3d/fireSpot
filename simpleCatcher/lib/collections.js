@@ -1,0 +1,1 @@
+sensorData = new Mongo.Collection('sensorData')

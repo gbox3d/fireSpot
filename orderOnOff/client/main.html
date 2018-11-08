@@ -1,0 +1,46 @@
+<head>
+  <title>orderOnOff</title>
+  <meta charset="utf-8" />
+  <!-- 모바일용웹 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- 안드로이드 홈화면추가시 상단 주소창 제거 -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" href="/img/favicon.ico">
+  <!-- ios홈화면추가시 상단 주소창 제거 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="/img/favicon.ico">
+
+</head>
+
+<body>
+  <h1>Welcome to Infantry Farm!</h1>
+
+{{>controlPanel}}
+
+
+
+</body>
+
+
+<template name="controlPanel">
+
+  <div class="devices">
+
+    <select>
+      {{#each devicesList}}
+        <option value="{{_id}}">{{_id}}</option>
+      {{/each}}
+    </select>
+
+  </div>
+
+  <div>
+    <button class="powerOn bigButton" > On </button>
+
+    <button class="powerOff bigButton" > Off </button>
+
+  </div>
+
+</template>
+
+
